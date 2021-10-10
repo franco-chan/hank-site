@@ -9,31 +9,40 @@
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Install Gatsby CLI.**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+    Install the Gatsby CLI globally by running the command below.
 
     ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    # SHELL
+    npm install -g gatsby-cli
     ```
 
-2.  **Start developing.**
+2.  **Install dependencies.**
 
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    yarn
+    or
+    npm install
     ```
 
-3.  **Open the code and start customizing!**
+3.  **Run your site locally.**
+
+    ```shell
+    gatsby develop
+    ```
 
     Your site is now running at http://localhost:8000!
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+3.  **Build your files before deploy.**
 
-4.  **Learn more**
+    ```shell
+    gatsby build
+    ```
+
+5.  **Learn more**
 
     - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
